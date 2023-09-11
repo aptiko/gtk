@@ -1,3 +1,24 @@
+My customized default GNOME theme
+=================================
+
+All custom themes I've seen are quickly thrown in and unprofessional,
+being them insane in some little detail. It seems the only almost-decent
+theme out there is the default, Adwaita light. However, it also has a
+bit of insanity: you can't really tell the active window from the rest
+of the windows. I keep trying to type on the wrong window. So I'm fixing
+this little detail.
+
+The way to install this customization is this:
+
+    cd gtk/theme/Adwaita
+    mkdir -p ~/.themes/my/gtk-3.0
+    sassc Default-light.scss ~/.themes/my/gtk-3.0/gtk.css
+
+Then go to GNOME Tweaks, Appearance, and under "Legacy applications"
+select the "My" theme.
+
+The original README follows.
+
 General Information
 ===================
 
